@@ -25,14 +25,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+.map is used to convert data and does not manipulate the original array. 
+.reduce is used for multiplication / addition but does not return a new array, just a single value.
+.filter is used to filter data based on something that can be equated to either true or false. It returns a new array and does not manipulate the original.
 
 2. Explain the difference between a callback and a higher order function.
+    A callback is a function that is passed into another function as a parameter. A Higher order Function is the function that takes in another function as it's parameter or arguments.
 
 3. Explain what a closure is.
+    A closure is when code is enclosed within curly brackets.
 
 4. Describe the four principles of the 'this' keyword.
+    Global Context Rule - When this is not inside any declared object, then this points to the window object.
+    Every variable declared in the global scope is attached to the window object.
+    Implicit Rule - When we declare an object implicitly, then this inside that object points to that object, and not the window object.
+    Explicit Rule (call, bind and apply)
+    New Rule (new keyword in JavaScript)
 
 5. Why do we need super() in an extended class?
+    Super pulls the parent function into the class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
